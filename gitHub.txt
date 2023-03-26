@@ -1,6 +1,10 @@
 Courses resources
 https://www.appbrewery.co/p/web-development-course-resources
 
+go to remote repo githug/gitignore
+
+there we will find pre added gitignore for specific projects. These are templates and you can copy and use in your project
+
 git commands:
 
 1. set remote github 
@@ -8,10 +12,9 @@ git commands:
 		-In place of origin you can name it anything. But by convention use origin. Its the name of the remote
 
 2. push your local to remote
-	git push [-u origin master]
+	git push -u origin master
 		- -u is flag to push, origin is remote name, master(default first branch) is name of the branch
-			- for the first time include the square bracket one. Later, use only git push command
-
+			
 3. git log - To view commit history.s
 4. git diff filename.ext - To compare changes made in the file with its previous version.
 5. git commit -m "Message in present tense" - to commit changes to local repository.
@@ -29,4 +32,14 @@ git commands:
 	- add name of the files you don't to be staged
 	- save
 
-	Now these files that may contain your secret keys will never be staged and this makes sure that it won't be pushed 	to the remote repo by accident.
+	Now these files that may contain your secret keys will never be staged and this makes sure that it won't be pushed to the remote repo by accident.
+
+10. git clone url - to clone a repository to your working directory
+
+11. git branches:
+	a. git branch newBranchname - command to add new branch
+	b. git branch - command to list available branches
+	c. git checkout branchName - command to switch to other branch
+
+12. e command: Before running this command switch to master/main branch
+		git merge branchName - to merge to master branch. 
