@@ -1,3 +1,2 @@
 # private
-My private repo
-For our learning pusposes
+My private repo for my learning pusposes
