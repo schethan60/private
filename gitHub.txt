@@ -41,5 +41,8 @@ git commands:
 	b. git branch - command to list available branches
 	c. git checkout branchName - command to switch to other branch
 
-12. e command: Before running this command switch to master/main branch
+12. Merge command: Before running this command switch to master/main branch
 		git merge branchName - to merge to master branch. 
+
+13. Forking: Forking is copying others remote repo to your own remote repo
+14. Pull request: Pull request is improvising the forked code back to base repo. If approved, it will be merged. 
