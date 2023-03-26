@@ -23,3 +23,10 @@ git commands:
 
 7. git pull - pulls everything that was being pushed from remote to local repo. Basically deletes everything from the remote
 8. git pull fileName.ext - pulls the file from remote to local repo and deletes the file from remote repo.
+
+9. gitignore
+	- create a file called .gitignore
+	- add name of the files you don't to be staged
+	- save
+
+	Now these files that may contain your secret keys will never be staged and this makes sure that it won't be pushed 	to the remote repo by accident.
