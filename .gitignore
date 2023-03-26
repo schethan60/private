@@ -1,0 +1,8 @@
+gitCred.txt
+secretsOne.txt
+
+# This is a command
+
+*.jsp
+
+# all files with .jsp extension in the directory will be ignored

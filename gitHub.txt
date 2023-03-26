@@ -1,0 +1,29 @@
+Courses resources
+https://www.appbrewery.co/p/web-development-course-resources
+
+My git url:
+Public: https://github.com/schethan60/test.git
+Private: https://github.com/schethan60/private.git
+
+git commands:
+
+1. set remote github 
+	git remote add origin https://github.com/schethan60/test.git
+		-In place of origin you can name it anything. But by convention use origin. Its the name of the remote
+
+2. push your local to remote
+	git push [-u origin master]
+		- -u is flag to push, origin is remote name, master(default first branch) is name of the branch
+			- for the first time include the square bracket one. Later, use only git push command
+
+3. git log - To view commit history.s
+4. git diff filename.ext - To compare changes made in the file with its previous version.
+5. git commit -m "Message in present tense" - to commit changes to local repository.
+
+6a. git rm --cached -r . 
+	- Remove(rm) all files (.) from the staging area recursively (-r)
+
+6b. git restore --staged . - remove all files from staging area
+
+7. git pull - pulls everything that was being pushed from remote to local repo. Basically deletes everything from the remote
+8. git pull fileName.ext - pulls the file from remote to local repo and deletes the file from remote repo.
