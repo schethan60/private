@@ -1,6 +1,0 @@
-start filename.ext - To open a file 
-mv filename.ext newFilename.txt - To rename and move a file
-ls - To list all files available in current folder
-ls -a - To list all files including the hidden ones
-mkdir folderName - To create a directory
-touch fileName - To create a file
