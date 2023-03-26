@@ -1,10 +1,6 @@
 Courses resources
 https://www.appbrewery.co/p/web-development-course-resources
 
-My git url:
-Public: https://github.com/schethan60/test.git
-Private: https://github.com/schethan60/private.git
-
 git commands:
 
 1. set remote github 
