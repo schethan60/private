@@ -1,0 +1,19 @@
+Git hub:
+pwd:Ag4uqNP3x@SxecG
+
+Courses resources
+https://www.appbrewery.co/p/web-development-course-resources
+
+My git url:
+Public: https://github.com/schethan60/test.git
+Private: https://github.com/schethan60/private.git
+
+git commands:
+
+1. set remote github 
+	git remote add origin https://github.com/schethan60/test.git
+		-In place of origin you can name it anything. But by convention use origin. Its the name of the remote
+
+2. push your local to remote
+	git push -u origin master
+		- -u is flag to push, origin is remote name, master(default first branch) is name of the branch
